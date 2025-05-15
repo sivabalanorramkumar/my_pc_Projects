@@ -1,0 +1,28 @@
+#welcom {
+    color: gray;
+    opacity: 10%;
+}
+
+p {
+    margin: 20px;
+}
+
+.box {
+
+    height: 300px;
+    width: 300px;
+    background-color: rgb(109, 87, 87);
+    position: relative;
+    top: 100%;
+    left: 45%;
+
+}
+
+.box-2 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+}
