@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
 
     <style>
 
@@ -13,6 +14,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            
         }
 
         .header {
@@ -32,11 +34,13 @@
         }
 
         .logo img {
+            margin: 10px;
             width: 100px;
         }
 
         .logo h2 {
-            font-size: 24px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 25px;
             color: #333;
         }
 
@@ -55,10 +59,22 @@
 
         nav a:hover {
             cursor:  pointer;
-            color:black;
+            color:white;
             width: fit-content;
             background-color: #007BFF;
             border-radius: 20px;
+        }
+
+
+
+        /* Adding fonts */
+        @font-face{
+            font-family: popins;
+            src: url(Fonts/Poppins-Light.ttf);
+        }
+        /* adding font for whole body */
+        body{
+             font-family: popins;
         }
     </style>
 </head>
